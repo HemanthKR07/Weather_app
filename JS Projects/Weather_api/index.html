@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Api</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alegreya:ital@1&family=Amatic+SC:wght@700&family=Belanosima&family=Bree+Serif&family=Caveat:wght@700&family=Chakra+Petch:ital@1&family=Courier+Prime&family=Exo+2:wght@300&family=Fasthand&family=Fredericka+the+Great&family=Kalam&family=Lugrasimo&family=Lumanosimo&family=Montserrat+Alternates&family=Montserrat:wght@300&family=Pangolin&family=Red+Hat+Display:wght@500&family=Rubik&family=Sacramento&family=Sarabun&family=Ysabeau+SC:wght@300&family=Zeyada&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <div class="container">
+        <div class="nav">
+          <h2 class="h2-1">YourClimate!</h2>
+          <ul class="ul1">
+            <li><button class="b1">HOME</button></li>
+            <li><button class="b2" onclick="tryb()">TRY_HERE</button></li>
+            <li><button class="b3" onclick="review()">REVIEWS</button></li>
+          </ul>
+        </div>
+
+        <div class="box">
+          <h4 class="h4-1">
+            Did the weather <br />
+            crash your <br />
+            vaccai ?
+          </h4>
+        </div>
+        <img src="globe-removebg-preview.png" alt="" class="img1 rotate" />
+      </div>
+      <div class="mid">
+        <h3 class="h3-1">TRY HERE</h3>
+        <p class="p1">Find the weather of any place around the globe !!</p>
+        <ul class="ul2">
+          <li>* Please input any valid place to find its current weather.</li>
+        </ul>
+
+        <div class="inp">
+          <label for="l1" class="l1">Enter place :</label>
+          <input
+            type="text"
+            name="text"
+            id="l1"
+            placeholder="Place name here !"
+            class="aa1"
+          />
+          <button class="bs1" id="btn1">Find out</button>
+        </div>
+        <div class="out rem" id="out">
+          <p class="pval" id="pval">.</p>
+        </div>
+      </div>
+
+      <div class="about">
+        <div class="ph1 h3-1">Our Reviews</div>
+        <button class="left blr" onclick="left()"><</button>
+        <div class="review_blk">
+          <img src="" alt="" class="imgrev" />
+          <h3 class="h3name"></h3>
+          <p class="pre1"></p>
+          <p class="pstar"></p>
+        </div>
+        <button class="right blr" onclick="right()">></button>
+      </div>
+
+      <div class="footer">
+        <ul class="ul3">
+          <li>
+            <a href=""
+              ><img
+                src="https://www.vectorlogo.zone/logos/instagram/instagram-icon.svg"
+                alt=""
+            /></a>
+          </li>
+          <li>
+            <a href=""
+              ><img
+                src="https://www.vectorlogo.zone/logos/linkedin/linkedin-icon.svg"
+                alt=""
+            /></a>
+          </li>
+          <li>
+            <a href=""
+              ><img
+                src="https://www.vectorlogo.zone/logos/facebook/facebook-tile.svg"
+                alt=""
+            /></a>
+          </li>
+          <li>
+            <a href=""
+              ><img
+                src="https://www.vectorlogo.zone/logos/twitter/twitter-tile.svg"
+                alt=""
+            /></a>
+          </li>
+        </ul>
+        <p class="p-1">copyright © 2023</p>
+      </div>
+    </div>
+  </body>
+  <script src="js.js"></script>
+</html>
