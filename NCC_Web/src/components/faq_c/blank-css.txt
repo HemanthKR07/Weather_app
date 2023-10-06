@@ -1,0 +1,230 @@
+/* body{
+    background-color:#8282fc;
+}
+
+
+
+.complete_b{
+    height:1700px;
+    margin-top: 0px;   
+    background-color:rgb(255, 255, 255);
+    z-index:99;
+    border:2px solid white;
+    color:white;
+ 
+}
+.block{
+    display:flex;
+    justify-content:flex-start;
+}
+
+.fin{
+    margin-top:80px;
+    border-radius:20px;
+    /* height:375px; */
+    /* color:white;
+    width:520px;
+    background-color:#8282fc;
+    border:2px solid white;
+}
+
+
+.qtext{
+    font-size:.7cm;
+    font-family:courier prime;
+    color:rgb(255, 255, 255);
+}
+.faqul,.laul{
+    margin-left:-30px;
+    list-style:none;
+}
+.fb{
+    height:65px;
+    padding:6px 14px;
+    width:400px;
+    margin-bottom:20px;
+    font-size:.5cm;
+    font-family:chakra petch;
+    border:1px solid black;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    margin-left:-10px;
+    position:relative;
+    
+}
+
+svg{
+    margin-top:7px;
+    margin-right:-13px;
+}
+
+.faqli{
+    padding-bottom:10px;
+}
+
+.faqb1{
+    margin-top:-30px;
+}
+
+.inner{
+    margin-left:60px;
+}
+.inner2{
+    margin-left:80px;
+}
+
+.bl1{
+    margin-top:30px;
+    position:absolute;
+    left:50%;
+    margin-left:-625px;
+}
+.bl2{
+    margin-top:560px;
+    position:relative;
+    left:50%;
+    margin-left:-625px;
+}
+
+.inner3{
+    margin-top:140px; 
+    color:black;  
+    width:750px;
+    position: absolute;
+    left:50%;
+    padding-top:10px;
+    margin-left:-350px;
+    background-color:#8282fc;
+    border:1px solid white;
+    border-radius:20px;
+}
+.ltext{
+    color:white;
+    font-size:.7cm;
+    font-family:courier prime;
+    padding-top:1px;
+}
+
+.lb{
+    width:500px;
+    height:70px;
+    font-size:.5cm;
+    margin-bottom:20px;
+    border-radius:10px;
+}
+
+.down_clm{
+    margin-left:50px;
+    width:398.55px;
+    background-color: white;
+    margin-top:-24px;
+    border:1px solid black;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.ans{
+    height:100px;
+    color:black;
+    font-size:.5cm;
+    font-family:chakra petch;
+    font-weight:100;
+}
+
+.ans1{
+    display:none;
+    overflow:none;
+}
+.ans2{
+    display:none;
+    overflow:none;
+}
+.ans3{
+    display:none;
+    overflow:none;
+}
+.ans21{
+    display:none;
+    overflow:none;
+}
+.ans22{
+    display:none;
+    overflow:none;
+}
+.ans23{
+    display:none;
+    overflow:none;
+}
+.ans31{
+    display:none;
+    overflow:none;
+}
+.ans32{
+    display:none;
+    overflow:none;
+}
+.ans33{
+    display:none;
+    overflow:none;
+}
+.ans41{
+    display:none;
+    overflow:none;
+}
+.ans42{
+    display:none;
+    overflow:none;
+}
+.ans43{
+    display:none;
+    overflow:none;
+}
+.ans51{
+    display:none;
+    overflow:none;
+}
+.ans52{
+    display:none;
+    overflow:none;
+}
+.ans53{
+    display:none;
+    overflow:none;
+}
+
+
+.fl1,.fl2,.fl3{
+    padding-bottom:22px;
+}
+
+.fb:hover{
+    cursor: pointer;
+    background-color:rgb(251, 227, 227);
+}
+
+.inner2 li, .inner3 li{
+    padding-bottom:20px;
+}
+
+.inner3 .down_clm{
+    width:500px;
+    margin-left:120px;
+}
+
+.inner3 .lb{
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.animation{
+    animation: scroll 2s linear;
+}
+
+@keyframes animation {
+    from {
+        transform : height(0px);
+    }
+    to {
+        transform : height();
+    }
+}  */

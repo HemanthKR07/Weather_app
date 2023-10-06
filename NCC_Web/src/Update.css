@@ -1,0 +1,13 @@
+body{
+    
+}
+
+.pp1{
+    position: absolute;
+    color:rgb(0, 0, 0);
+    margin-top:120px;
+    background-color:white;
+    padding:30px 30px;
+    font-size:2cm;
+    left:150px;
+}
